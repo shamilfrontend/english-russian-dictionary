@@ -62,11 +62,14 @@ function ensureDir(p) {
   fs.mkdirSync(p, { recursive: true });
 }
 
-function httpsGetJson(url) {
+function httpsGetJson(url, attempt = 1) {
   return new Promise((resolve, reject) => {
     const req = https.get(
       url,
-      { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } },
+      {
+        headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
+        timeout: 45000,
+      },
       (res) => {
         let body = "";
         res.on("data", (c) => (body += c));
@@ -83,7 +86,18 @@ function httpsGetJson(url) {
         });
       }
     );
+    req.on("timeout", () => {
+      req.destroy(new Error("socket timeout"));
+    });
     req.on("error", reject);
+  }).catch(async (err) => {
+    const retriable =
+      /ETIMEDOUT|ECONNRESET|EAI_AGAIN|socket timeout|ECONNREFUSED/i.test(String(err && err.message));
+    if (retriable && attempt < 5) {
+      await sleep(800 * attempt);
+      return httpsGetJson(url, attempt + 1);
+    }
+    throw err;
   });
 }
 
