@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Кабинет — англо-русский словарь</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="site-header">
+        <div class="site-header__top">
+          <div class="site-header__brand">
+            <span class="logo-mark" aria-hidden="true">📚</span>
+            <div class="site-header__titles">
+              <h1 class="site-header__title">Словарь</h1>
+              <p class="site-header__tagline">
+                Короткие шаги и яркий прогресс — вёрстка в игровом стиле
+              </p>
+            </div>
+          </div>
+          <div class="site-header__stats" role="group" aria-label="Статистика (заглушка)">
+            <div class="stat-pill stat-pill--streak">
+              <span class="stat-pill__icon" aria-hidden="true">🔥</span>
+              <span class="stat-pill__value">3</span>
+              <span class="stat-pill__label">дня</span>
+            </div>
+            <div class="stat-pill stat-pill--xp">
+              <span class="stat-pill__icon" aria-hidden="true">⚡</span>
+              <span class="stat-pill__value">120</span>
+              <span class="stat-pill__label">XP</span>
+            </div>
+          </div>
+        </div>
+        <form class="site-header__search" role="search" aria-label="Поиск слова">
+          <label class="visually-hidden" for="word-search">Поиск слова</label>
+          <input
+            id="word-search"
+            type="search"
+            name="q"
+            placeholder="Поиск слова…"
+            autocomplete="off"
+            disabled
+            aria-disabled="true"
+            title="Пока только вёрстка"
+          />
+        </form>
+      </header>
+
+      <div class="layout">
+        <aside class="sidebar" aria-label="Наборы слов">
+          <nav class="nav-sets" aria-label="Выбор списка">
+            <h2 class="nav-sets__heading">Твой путь</h2>
+            <ul class="nav-sets__list">
+              <li>
+                <a class="nav-sets__link nav-sets__link--active" href="#" aria-current="page"
+                  ><span class="nav-sets__node" aria-hidden="true"></span> Top 100</a
+                >
+              </li>
+              <li>
+                <a class="nav-sets__link" href="#"><span class="nav-sets__node" aria-hidden="true"></span> Top 300</a>
+              </li>
+              <li>
+                <a class="nav-sets__link" href="#"><span class="nav-sets__node" aria-hidden="true"></span> Top 500</a>
+              </li>
+              <li>
+                <a class="nav-sets__link" href="#"><span class="nav-sets__node" aria-hidden="true"></span> Top 1000</a>
+              </li>
+              <li>
+                <a class="nav-sets__link" href="#"><span class="nav-sets__node" aria-hidden="true"></span> Top 1500</a>
+              </li>
+              <li>
+                <a class="nav-sets__link" href="#"><span class="nav-sets__node" aria-hidden="true"></span> Top 3000</a>
+              </li>
+              <li>
+                <a class="nav-sets__link" href="#"><span class="nav-sets__node" aria-hidden="true"></span> Top 10000</a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+
+        <main class="main" id="main">
+          <section class="progress-block" aria-label="Прогресс по списку">
+            <div class="progress-block__head">
+              <span class="progress-block__label">Прогресс</span>
+              <span class="progress-block__counts">Изучено <strong>12</strong> / 100</span>
+            </div>
+            <div class="progress-block__bar" role="progressbar" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">
+              <span class="progress-block__fill" style="width: 12%"></span>
+            </div>
+          </section>
+
+          <article class="word-card" aria-labelledby="word-heading">
+            <p class="word-card__meta">Слово 13 из 100</p>
+            <h2 id="word-heading" class="word-card__word">dictionary</h2>
+            <p class="word-card__transcription">[ˈdɪkʃəˌnɛɹi]</p>
+            <p class="word-card__translation">словарь</p>
+            <div class="word-card__note">
+              <span class="word-card__note-label">Заметка</span>
+              <p class="word-card__note-text">Плейсхолдер для вашего примера или ассоциации.</p>
+            </div>
+            <div class="word-card__actions">
+              <button type="button" class="btn btn--primary btn--duo">Знаю</button>
+              <button type="button" class="btn btn--wrong btn--duo-flat">Повторить</button>
+              <button type="button" class="btn btn--blue btn--duo-flat">Следующее</button>
+            </div>
+          </article>
+
+          <section class="recent-block" aria-labelledby="recent-heading">
+            <h2 id="recent-heading" class="recent-block__title">Недавно сложные</h2>
+            <div class="recent-block__table-wrap">
+              <table class="recent-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Слово</th>
+                    <th scope="col">Перевод</th>
+                    <th scope="col">Транскрипция</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>through</td>
+                    <td>через; сквозь</td>
+                    <td class="recent-table__ipa">[θɹuː]</td>
+                  </tr>
+                  <tr>
+                    <td>though</td>
+                    <td>хотя</td>
+                    <td class="recent-table__ipa">[ðoʊ]</td>
+                  </tr>
+                  <tr>
+                    <td>thought</td>
+                    <td>мысль</td>
+                    <td class="recent-table__ipa">[θɔːt]</td>
+                  </tr>
+                  <tr>
+                    <td>enough</td>
+                    <td>достаточно</td>
+                    <td class="recent-table__ipa">[ɪˈnʌf]</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
