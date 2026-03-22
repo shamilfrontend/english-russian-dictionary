@@ -1,68 +1,43 @@
 [
   {
     "word": "the",
-    "translation": "определенный артикль",
+    "translation": "указывает на уже упоминавшийся, известный, конкретный либо единственный в своём роде объект",
     "transcription": "[ðə]"
   },
   {
-    "word": "be",
-    "translation": "быть, находиться",
-    "transcription": "[biː]"
-  },
-  {
-    "word": "to",
-    "translation": "к, в; частица инфинитива",
-    "transcription": "[tuː]"
-  },
-  {
     "word": "of",
-    "translation": "из, о, об",
+    "translation": "указывает на отношение принадлежности, на «владельца», того, кому что-либо принадлежит",
     "transcription": "[ɒv]"
   },
   {
     "word": "and",
-    "translation": "и",
+    "translation": "и, да, а",
     "transcription": "[ænd]"
   },
   {
+    "word": "to",
+    "translation": "к, по направлению к",
+    "transcription": "[tu̟ː]"
+  },
+  {
     "word": "a",
-    "translation": "неопределенный артикль",
+    "translation": "неопределённый артикль, может либо переводиться словами один, некий, либо опускаться при переводе на русский язык",
     "transcription": "[ə]"
   },
   {
     "word": "in",
     "translation": "в",
-    "transcription": "[ɪn]"
-  },
-  {
-    "word": "that",
-    "translation": "тот, та, то; что",
-    "transcription": "[ðæt]"
-  },
-  {
-    "word": "have",
-    "translation": "иметь",
-    "transcription": "[hæv]"
-  },
-  {
-    "word": "I",
-    "translation": "я",
-    "transcription": "[aɪ]"
-  },
-  {
-    "word": "it",
-    "translation": "он, она, оно (неодуш.)",
-    "transcription": "[ɪt]"
+    "transcription": "[ən]"
   },
   {
     "word": "for",
-    "translation": "для, за",
+    "translation": "для, ради",
     "transcription": "[fɔː]"
   },
   {
-    "word": "not",
-    "translation": "не",
-    "transcription": "[nɒt]"
+    "word": "is",
+    "translation": "есть (3-е л. ед. ч., глагол to be)",
+    "transcription": "[ɪz]"
   },
   {
     "word": "on",
@@ -70,384 +45,89 @@
     "transcription": "[ɒn]"
   },
   {
+    "word": "that",
+    "translation": "тот; та; то; что (союз)",
+    "transcription": "[ðət]"
+  },
+  {
+    "word": "by",
+    "translation": "около, у",
+    "transcription": "[baɪ]"
+  },
+  {
+    "word": "this",
+    "translation": "этот; эта; это; эти",
+    "transcription": "[ðɪs]"
+  },
+  {
     "word": "with",
     "translation": "с",
     "transcription": "[wɪð]"
   },
   {
-    "word": "he",
-    "translation": "он",
-    "transcription": "[hiː]"
-  },
-  {
-    "word": "as",
-    "translation": "как, в качестве",
-    "transcription": "[æz]"
+    "word": "i",
+    "translation": "ай, и",
+    "transcription": "[ə]"
   },
   {
     "word": "you",
-    "translation": "ты, вы",
+    "translation": "вас, вам, вами",
     "transcription": "[juː]"
   },
   {
-    "word": "do",
-    "translation": "делать",
-    "transcription": "[duː]"
+    "word": "it",
+    "translation": "оно; это",
+    "transcription": "[ɪt]"
   },
   {
-    "word": "at",
-    "translation": "в, на (место/время)",
-    "transcription": "[æt]"
-  },
-  {
-    "word": "this",
-    "translation": "этот, эта, это",
-    "transcription": "[ðɪs]"
-  },
-  {
-    "word": "but",
-    "translation": "но",
-    "transcription": "[bʌt]"
-  },
-  {
-    "word": "his",
-    "translation": "его",
-    "transcription": "[hɪz]"
-  },
-  {
-    "word": "by",
-    "translation": "у, к, посредством",
-    "transcription": "[baɪ]"
-  },
-  {
-    "word": "from",
-    "translation": "из, от",
-    "transcription": "[frɒm]"
-  },
-  {
-    "word": "they",
-    "translation": "они",
-    "transcription": "[ðeɪ]"
-  },
-  {
-    "word": "we",
-    "translation": "мы",
-    "transcription": "[wiː]"
-  },
-  {
-    "word": "say",
-    "translation": "сказать",
-    "transcription": "[seɪ]"
-  },
-  {
-    "word": "her",
-    "translation": "её",
-    "transcription": "[hɜː]"
-  },
-  {
-    "word": "she",
-    "translation": "она",
-    "transcription": "[ʃiː]"
+    "word": "not",
+    "translation": "не",
+    "transcription": "[nɒt]"
   },
   {
     "word": "or",
-    "translation": "или",
-    "transcription": "[ɔː]"
+    "translation": "или brethren, sisters, father, mother, wife, children, lands, for my name's sake, shall receive an hundredfold, and shall inherit everlasting life.|перевод=И всякий, кто оставит…",
+    "transcription": "[ɔː(ɹ)]"
   },
   {
-    "word": "will",
-    "translation": "вспом. гл. будущего времени",
-    "transcription": "[wɪl]"
+    "word": "be",
+    "translation": "быть",
+    "transcription": "[biː]"
   },
   {
-    "word": "my",
-    "translation": "мой",
-    "transcription": "[maɪ]"
+    "word": "are",
+    "translation": "ар",
+    "transcription": "[ɛə]"
   },
   {
-    "word": "one",
-    "translation": "один",
-    "transcription": "[wʌn]"
+    "word": "from",
+    "translation": "из, от, с",
+    "transcription": "[fɹɒm]"
   },
   {
-    "word": "all",
-    "translation": "все, весь",
-    "transcription": "[ɔːl]"
+    "word": "at",
+    "translation": "в, на, у, возле",
+    "transcription": "[æt]"
   },
   {
-    "word": "would",
-    "translation": "бы (условное наклонение)",
-    "transcription": "[wʊd]"
-  },
-  {
-    "word": "there",
-    "translation": "там; указывает на наличие",
-    "transcription": "[ðeə]"
-  },
-  {
-    "word": "their",
-    "translation": "их",
-    "transcription": "[ðeə]"
-  },
-  {
-    "word": "what",
-    "translation": "что, какой",
-    "transcription": "[wɒt]"
-  },
-  {
-    "word": "so",
-    "translation": "так, поэтому",
-    "transcription": "[səʊ]"
-  },
-  {
-    "word": "up",
-    "translation": "вверх",
-    "transcription": "[ʌp]"
-  },
-  {
-    "word": "out",
-    "translation": "вне, наружу",
-    "transcription": "[aʊt]"
-  },
-  {
-    "word": "if",
-    "translation": "если",
-    "transcription": "[ɪf]"
-  },
-  {
-    "word": "about",
-    "translation": "о, около, примерно",
-    "transcription": "[əˈbaʊt]"
-  },
-  {
-    "word": "who",
-    "translation": "кто",
-    "transcription": "[huː]"
-  },
-  {
-    "word": "get",
-    "translation": "получать, становиться",
-    "transcription": "[ɡet]"
-  },
-  {
-    "word": "which",
-    "translation": "который",
-    "transcription": "[wɪtʃ]"
-  },
-  {
-    "word": "go",
-    "translation": "идти, ехать",
-    "transcription": "[ɡəʊ]"
-  },
-  {
-    "word": "me",
-    "translation": "меня, мне",
-    "transcription": "[miː]"
-  },
-  {
-    "word": "when",
-    "translation": "когда",
-    "transcription": "[wen]"
-  },
-  {
-    "word": "make",
-    "translation": "делать, изготавливать",
-    "transcription": "[meɪk]"
-  },
-  {
-    "word": "can",
-    "translation": "мочь",
-    "transcription": "[kæn]"
-  },
-  {
-    "word": "like",
-    "translation": "нравиться; как, подобно",
-    "transcription": "[laɪk]"
-  },
-  {
-    "word": "time",
-    "translation": "время",
-    "transcription": "[taɪm]"
-  },
-  {
-    "word": "no",
-    "translation": "нет, никакой",
-    "transcription": "[nəʊ]"
-  },
-  {
-    "word": "just",
-    "translation": "только что, просто",
-    "transcription": "[dʒʌst]"
-  },
-  {
-    "word": "him",
-    "translation": "его, ему",
-    "transcription": "[hɪm]"
-  },
-  {
-    "word": "know",
-    "translation": "знать",
-    "transcription": "[nəʊ]"
-  },
-  {
-    "word": "take",
-    "translation": "брать, взять",
-    "transcription": "[teɪk]"
-  },
-  {
-    "word": "people",
-    "translation": "люди",
-    "transcription": "[ˈpiːpl]"
-  },
-  {
-    "word": "into",
-    "translation": "в (внутрь)",
-    "transcription": "[ˈɪntuː]"
-  },
-  {
-    "word": "year",
-    "translation": "год",
-    "transcription": "[jɪə]"
+    "word": "as",
+    "translation": "как, так, настолько, столь",
+    "transcription": "[əz]"
   },
   {
     "word": "your",
-    "translation": "твой, ваш",
-    "transcription": "[jɔː]"
+    "translation": "ваш",
+    "transcription": "[jɔː(ɹ)]"
   },
   {
-    "word": "good",
-    "translation": "хороший",
-    "transcription": "[ɡʊd]"
+    "word": "all",
+    "translation": "весь, целый, всё",
+    "transcription": "[ɔːl]"
   },
   {
-    "word": "some",
-    "translation": "некоторый, несколько",
-    "transcription": "[sʌm]"
-  },
-  {
-    "word": "could",
-    "translation": "мог (могли бы)",
-    "transcription": "[kʊd]"
-  },
-  {
-    "word": "them",
-    "translation": "их, им",
-    "transcription": "[ðem]"
-  },
-  {
-    "word": "see",
-    "translation": "видеть",
-    "transcription": "[siː]"
-  },
-  {
-    "word": "other",
-    "translation": "другой",
-    "transcription": "[ˈʌðə]"
-  },
-  {
-    "word": "than",
-    "translation": "чем",
-    "transcription": "[ðæn]"
-  },
-  {
-    "word": "then",
-    "translation": "затем, тогда",
-    "transcription": "[ðen]"
-  },
-  {
-    "word": "now",
-    "translation": "сейчас",
-    "transcription": "[naʊ]"
-  },
-  {
-    "word": "look",
-    "translation": "смотреть",
-    "transcription": "[lʊk]"
-  },
-  {
-    "word": "only",
-    "translation": "только",
-    "transcription": "[ˈəʊnli]"
-  },
-  {
-    "word": "come",
-    "translation": "приходить",
-    "transcription": "[kʌm]"
-  },
-  {
-    "word": "its",
-    "translation": "его, её (принадлежность)",
-    "transcription": "[ɪts]"
-  },
-  {
-    "word": "over",
-    "translation": "над, через, закончено",
-    "transcription": "[ˈəʊvə]"
-  },
-  {
-    "word": "think",
-    "translation": "думать",
-    "transcription": "[θɪŋk]"
-  },
-  {
-    "word": "also",
-    "translation": "также",
-    "transcription": "[ˈɔːlsəʊ]"
-  },
-  {
-    "word": "back",
-    "translation": "назад, спина",
-    "transcription": "[bæk]"
-  },
-  {
-    "word": "after",
-    "translation": "после",
-    "transcription": "[ˈɑːftə]"
-  },
-  {
-    "word": "use",
-    "translation": "использовать",
-    "transcription": "[juːz]"
-  },
-  {
-    "word": "two",
-    "translation": "два",
-    "transcription": "[tuː]"
-  },
-  {
-    "word": "how",
-    "translation": "как",
-    "transcription": "[haʊ]"
-  },
-  {
-    "word": "our",
-    "translation": "наш",
-    "transcription": "[aʊə]"
-  },
-  {
-    "word": "work",
-    "translation": "работа, работать",
-    "transcription": "[wɜːk]"
-  },
-  {
-    "word": "first",
-    "translation": "первый",
-    "transcription": "[fɜːst]"
-  },
-  {
-    "word": "well",
-    "translation": "хорошо; колодец",
-    "transcription": "[wel]"
-  },
-  {
-    "word": "way",
-    "translation": "путь, способ",
-    "transcription": "[weɪ]"
-  },
-  {
-    "word": "even",
-    "translation": "даже",
-    "transcription": "[ˈiːvn]"
+    "word": "have",
+    "translation": "иметь",
+    "transcription": "[hæv]"
   },
   {
     "word": "new",
@@ -455,19 +135,329 @@
     "transcription": "[njuː]"
   },
   {
-    "word": "want",
-    "translation": "хотеть",
-    "transcription": "[wɒnt]"
+    "word": "more",
+    "translation": "больше",
+    "transcription": "[mɔː(ɹ)]"
   },
   {
-    "word": "because",
-    "translation": "потому что",
-    "transcription": "[bɪˈkɒz]"
+    "word": "an",
+    "translation": "вариант неопределённого артикля a перед существительными, начинающимися с гласного звука",
+    "transcription": "[ˈæn]"
+  },
+  {
+    "word": "was",
+    "translation": "был, была, было (прош. вр. to be)",
+    "transcription": "[wəz]"
+  },
+  {
+    "word": "we",
+    "translation": "мы",
+    "transcription": "[wiː]"
+  },
+  {
+    "word": "will",
+    "translation": "желать, пожелать",
+    "transcription": "[wɪɫ]"
+  },
+  {
+    "word": "home",
+    "translation": "дом",
+    "transcription": "[həʊm]"
+  },
+  {
+    "word": "can",
+    "translation": "мочь, смочь, уметь, быть в состоянии",
+    "transcription": "[kən]"
+  },
+  {
+    "word": "us",
+    "translation": "нас, нам, нами",
+    "transcription": "[əs]"
+  },
+  {
+    "word": "about",
+    "translation": "кругом, вокруг, повсюду",
+    "transcription": "[əˈbaʊ̯t]"
+  },
+  {
+    "word": "if",
+    "translation": "если, если бы thou be the Son of God, command that these stones be made bread.|перевод=И приступил к Нему искуситель и сказал: Ты Сын Божий, скажи, чтобы камни сии сделались хле…",
+    "transcription": "[ɪf]"
+  },
+  {
+    "word": "page",
+    "translation": "страница",
+    "transcription": "[peɪd͡ʒ]"
+  },
+  {
+    "word": "my",
+    "translation": "мой, моя, моё, мои",
+    "transcription": "[mɪ]"
+  },
+  {
+    "word": "has",
+    "translation": "будет",
+    "transcription": "[hæz]"
+  },
+  {
+    "word": "search",
+    "translation": "искать, поискать, разыскивать, вести поиск",
+    "transcription": "[sɜːt͡ʃ]"
+  },
+  {
+    "word": "free",
+    "translation": "свободный, вольный",
+    "transcription": "[fɹiː]"
+  },
+  {
+    "word": "but",
+    "translation": "но, только, хотя, хоть",
+    "transcription": "[ˈbʌt]"
+  },
+  {
+    "word": "our",
+    "translation": "наш",
+    "transcription": "[ˈaʊə(ɹ)]"
+  },
+  {
+    "word": "one",
+    "translation": "один reason will do|перевод=ни соображение не удовлетворит (нас)}}",
+    "transcription": "[wʌn]"
+  },
+  {
+    "word": "other",
+    "translation": "другой, иной",
+    "transcription": "[ˈʌðə]"
+  },
+  {
+    "word": "do",
+    "translation": "делать the homework.|перевод=Я домашнее задание.}}",
+    "transcription": "[də]"
+  },
+  {
+    "word": "no",
+    "translation": "нет",
+    "transcription": "[nəʊ]"
+  },
+  {
+    "word": "information",
+    "translation": "информация, сообщение, сведение",
+    "transcription": "[ˌɪn.fəˈmeɪ.ʃn̩]"
+  },
+  {
+    "word": "time",
+    "translation": "хронометрировать",
+    "transcription": "[taɪm]"
+  },
+  {
+    "word": "they",
+    "translation": "они",
+    "transcription": "[ðeɪ]"
+  },
+  {
+    "word": "site",
+    "translation": "местоположение, местонахождение, место, положение, участок",
+    "transcription": "[saɪt]"
+  },
+  {
+    "word": "he",
+    "translation": "он",
+    "transcription": "[hiː]"
+  },
+  {
+    "word": "up",
+    "translation": "вверх, наверх, вверху, наверху",
+    "transcription": "[ʌp]"
+  },
+  {
+    "word": "may",
+    "translation": "мочь, можно",
+    "transcription": "[meɪ]"
+  },
+  {
+    "word": "what",
+    "translation": "какой, какая, какое, что за",
+    "transcription": "[wɒt]"
+  },
+  {
+    "word": "which",
+    "translation": "который, какой, кто is the first commandment of all?|перевод=Один из книжников, слыша их прения и видя, что Иисус хорошо им отвечал, подошел и спросил Его: первая из всех запове…",
+    "transcription": "[wɪt͡ʃ]"
+  },
+  {
+    "word": "their",
+    "translation": "их, ихний",
+    "transcription": "[ðɛə]"
+  },
+  {
+    "word": "news",
+    "translation": "новость",
+    "transcription": "[njuːz]"
+  },
+  {
+    "word": "out",
+    "translation": "из",
+    "transcription": "[ˈäʊ̯t]"
+  },
+  {
+    "word": "use",
+    "translation": "употребление, применение, использование",
+    "transcription": "[juːs]"
   },
   {
     "word": "any",
-    "translation": "любой",
-    "transcription": "[ˈeni]"
+    "translation": "ещё",
+    "transcription": "[ɛni]"
+  },
+  {
+    "word": "there",
+    "translation": "там",
+    "transcription": "[ðə(ɹ)]"
+  },
+  {
+    "word": "see",
+    "translation": "видеть, увидеть",
+    "transcription": "[ˈsiː]"
+  },
+  {
+    "word": "only",
+    "translation": "единственный, единый",
+    "transcription": "[ˈəʊn.li]"
+  },
+  {
+    "word": "so",
+    "translation": "чтобы",
+    "transcription": "[səʊ]"
+  },
+  {
+    "word": "his",
+    "translation": "его, свой",
+    "transcription": "[hɪz]"
+  },
+  {
+    "word": "when",
+    "translation": "когда",
+    "transcription": "[ˈwɛn]"
+  },
+  {
+    "word": "contact",
+    "translation": "контакт, соприкосновение, прикосновение",
+    "transcription": "[ˈkɒntækt]"
+  },
+  {
+    "word": "here",
+    "translation": "здесь, тут",
+    "transcription": "[ˈhɪə̯]"
+  },
+  {
+    "word": "business",
+    "translation": "предприятие, бизнес, компания, фирма",
+    "transcription": "[ˈbɪz.nɪs]"
+  },
+  {
+    "word": "who",
+    "translation": "кто",
+    "transcription": "[huː]"
+  },
+  {
+    "word": "web",
+    "translation": "сеть, сетка",
+    "transcription": "[wɛb]"
+  },
+  {
+    "word": "also",
+    "translation": "тоже, также",
+    "transcription": "[ˈɔːl.səʊ]"
+  },
+  {
+    "word": "now",
+    "translation": "сейчас, ныне",
+    "transcription": "[naʊ]"
+  },
+  {
+    "word": "help",
+    "translation": "помощь",
+    "transcription": "[hɛlp]"
+  },
+  {
+    "word": "get",
+    "translation": "доставать, достать",
+    "transcription": "[ɡɛt]"
+  },
+  {
+    "word": "pm",
+    "translation": "μm/sec (мкм/сек)",
+    "transcription": "[]"
+  },
+  {
+    "word": "view",
+    "translation": "вид",
+    "transcription": "[vjuː]"
+  },
+  {
+    "word": "online",
+    "translation": "онлайн, онлайновый",
+    "transcription": "[ˈɒnlaɪn]"
+  },
+  {
+    "word": "c",
+    "translation": "—",
+    "transcription": "[siː]"
+  },
+  {
+    "word": "e",
+    "translation": "—",
+    "transcription": "[ˈiː]"
+  },
+  {
+    "word": "first",
+    "translation": "первый",
+    "transcription": "[fɜːst]"
+  },
+  {
+    "word": "am",
+    "translation": "есть (1-е л. ед. ч., глагол to be)",
+    "transcription": "[əm]"
+  },
+  {
+    "word": "been",
+    "translation": "been (причастие II to be)",
+    "transcription": "[bɪn]"
+  },
+  {
+    "word": "would",
+    "translation": "бы",
+    "transcription": "[wəd]"
+  },
+  {
+    "word": "how",
+    "translation": "как, насколько",
+    "transcription": "[haʊ]"
+  },
+  {
+    "word": "were",
+    "translation": "были (прош. вр. to be)",
+    "transcription": "[wə(ɹ)]"
+  },
+  {
+    "word": "me",
+    "translation": "меня",
+    "transcription": "[miː]"
+  },
+  {
+    "word": "s",
+    "translation": "—",
+    "transcription": "[ɛs]"
+  },
+  {
+    "word": "services",
+    "translation": "услуги",
+    "transcription": "[ˈsɜː.vɪ.sɪz]"
+  },
+  {
+    "word": "some",
+    "translation": "некоторый",
+    "transcription": "[sʌm]"
   },
   {
     "word": "these",
@@ -475,28 +465,38 @@
     "transcription": "[ðiːz]"
   },
   {
-    "word": "give",
-    "translation": "давать",
-    "transcription": "[ɡɪv]"
+    "word": "click",
+    "translation": "щёлканье, щелчок",
+    "transcription": "[klɪk]"
   },
   {
-    "word": "day",
-    "translation": "день",
-    "transcription": "[deɪ]"
+    "word": "its",
+    "translation": "свой",
+    "transcription": "[ɪts]"
   },
   {
-    "word": "most",
-    "translation": "большинство, самый",
-    "transcription": "[məʊst]"
+    "word": "like",
+    "translation": "нравиться, любить",
+    "transcription": "[laɪ̯k]"
   },
   {
-    "word": "us",
-    "translation": "нас, нам",
-    "transcription": "[ʌs]"
+    "word": "service",
+    "translation": "услуга",
+    "transcription": "[ˈsɜː.vɪs]"
   },
   {
-    "word": "very",
-    "translation": "очень",
-    "transcription": "[ˈveri]"
+    "word": "x",
+    "translation": "—",
+    "transcription": "[ɛks]"
+  },
+  {
+    "word": "than",
+    "translation": "чем he.|перевод=Я знаю вас лучше, он.}} it had been last year.|О. Генри|:s:en:Two Thanksgiving Day Gentlemen|перевод=Его волосы были белее и тоньше, чем в прошлом году.}}",
+    "transcription": "[ðæn]"
+  },
+  {
+    "word": "find",
+    "translation": "находить, найти",
+    "transcription": "[ˈfaɪ̯nd]"
   }
 ]

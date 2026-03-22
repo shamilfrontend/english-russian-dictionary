@@ -54,6 +54,11 @@ const PRONOUN_IPA = {
   she: "ʃiː",
 };
 
+const DEMONSTRATIVE_GLOSS = {
+  this: "этот; эта; это; эти",
+  that: "тот; та; то; что (союз)",
+};
+
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
@@ -348,6 +353,11 @@ async function enrichWord(word) {
   if (word === "a") {
     transcription = "ə";
     sources.push("lemma fix: indefinite article IPA");
+  }
+
+  if (DEMONSTRATIVE_GLOSS[word]) {
+    translation = DEMONSTRATIVE_GLOSS[word];
+    sources.push("lemma fix: demonstrative / that");
   }
 
   const entry = {
