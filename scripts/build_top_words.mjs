@@ -92,7 +92,9 @@ function httpsGetJson(url, attempt = 1) {
     req.on("error", reject);
   }).catch(async (err) => {
     const retriable =
-      /ETIMEDOUT|ECONNRESET|EAI_AGAIN|socket timeout|ECONNREFUSED/i.test(String(err && err.message));
+      /ETIMEDOUT|ECONNRESET|EAI_AGAIN|ENOTFOUND|socket timeout|ECONNREFUSED/i.test(
+        String(err && err.message)
+      );
     if (retriable && attempt < 5) {
       await sleep(800 * attempt);
       return httpsGetJson(url, attempt + 1);
