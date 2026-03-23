@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+defineOptions({ name: 'TheHeader' });
 </script>
 
 <template>
@@ -120,28 +120,28 @@
 		&:last-of-type {
 			margin-left: auto;
 		}
+
+		&:focus-visible {
+			outline: 2px solid var(--blue);
+			outline-offset: 2px;
+		}
+
+		&:hover {
+			color: var(--text);
+			background: var(--bg-raised);
+		}
 	}
-}
 
-.the-header__tab-icon {
-	width: 20px;
-	height: 20px;
-	flex-shrink: 0;
-}
+	&__tab-icon {
+		width: 20px;
+		height: 20px;
+		flex-shrink: 0;
+	}
 
-.the-header__tab:hover {
-	color: var(--text);
-	background: var(--bg-raised);
-}
-
-.the-header__tab--active {
-	color: var(--green);
-	background: rgba(88, 204, 2, 0.1);
-	border-color: rgba(88, 204, 2, 0.25);
-}
-
-.the-header__tab:focus-visible {
-	outline: 2px solid var(--blue);
-	outline-offset: 2px;
+	&__tab--active {
+		color: var(--green);
+		background: rgba(88, 204, 2, 0.1);
+		border-color: rgba(88, 204, 2, 0.25);
+	}
 }
 </style>
