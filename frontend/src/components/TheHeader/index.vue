@@ -74,16 +74,16 @@
 	top: 0;
 	z-index: 100;
 	background-color: var(--bg-card);
-}
 
-.the-header__inner {
-	display: grid;
-	grid-template-columns: 40px 1fr;
-	align-items: center;
-	gap: 1rem;
-	max-width: var(--max-w);
-	margin: 0 auto;
-	padding: 10px clamp(0.75rem, 3vw, 1.5rem);
+	&__inner {
+		display: grid;
+		grid-template-columns: 40px 1fr;
+		align-items: center;
+		gap: 1rem;
+		max-width: var(--max-w);
+		margin: 0 auto;
+		padding: 10px clamp(0.75rem, 3vw, 1.5rem);
+	}
 }
 
 .the-header__logo {
